@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/art.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/blackjack_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/blackjack_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/mod_clear_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/mod_clear_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Blackjack/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/hangman_flowchart.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/hangman_flowchart.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/mod_hangman_art.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/mod_hangman_art.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/mod_hangman_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Hangman/mod_hangman_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/game_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/game_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/higher_lower_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/higher_lower_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/instructor_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Projects_Archive_Repository/Higher_Lower/instructor_solution.py" afterDir="false" />
-    </list>
+    <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +19,12 @@
     &quot;assignee&quot;: &quot;renekerr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/renekerr/Python.git&quot;,
-    &quot;accountId&quot;: &quot;2a1cde55-3bf3-41ea-b392-ca61b726e84f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/renekerr/python_lessons.git",
+    "accountId": "76605aa6-2bef-4ddc-9b53-ca2ebc09285a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,8 +42,9 @@
     "Python.variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,6 +60,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="" />
