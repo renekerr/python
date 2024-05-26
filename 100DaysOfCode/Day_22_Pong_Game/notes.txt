@@ -1,0 +1,14 @@
+Components:
+- Scoreboard
+- Ball
+- Players
+
+TODO:
+- Set up screen
+- Move and control a paddles (2 players)
+- Create a ball and make it move
+- Detect collision with wall and bounce
+- Detect collision with paddle
+- Detect when paddle misses
+- Create and keep a scoreboard
+
