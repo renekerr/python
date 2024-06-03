@@ -1,10 +1,10 @@
-"""
+'''
  Day 1 - Beginner - Working with Variables in Python to Manage Data
 
-
+ 
 VARIABLES
 
- """
+ '''
 
 print('Hi ' + input('What is your name? ') + '!')
 print(len(input('What is your name? ')))

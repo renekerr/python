@@ -1,6 +1,7 @@
-"""
+'''
  VARIABLES
-"""
+'''
+
 
 # Declaring variables in Python
 first_name = 'Rene'
@@ -11,11 +12,11 @@ age = 50
 is_married = False
 skills = ['SQL', 'Python']
 person_info = {
-    'firstname': 'Alex',
-    'lastname': 'Kerr',
-    'country': 'Cuba',
-    'city': 'Havana'
-}
+    'firstname':'Alex', 
+    'lastname':'Kerr', 
+    'country':'Cuba',
+    'city':'Havana'
+    }
 
 # Printing variables
 print('First name:', first_name)
