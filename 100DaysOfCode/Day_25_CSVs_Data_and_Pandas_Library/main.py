@@ -3,7 +3,7 @@
 import csv
 
 
-with open('weather_data.csv') as data_file:
+with open('weather_forecast/weather_data.csv') as data_file:
     data = csv.reader(data_file)
     print(data)  # this will print it as an object
 
