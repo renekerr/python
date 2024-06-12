@@ -32,4 +32,3 @@ print(df)
 
 # Save the DataFrame to a new CSV file
 df.to_csv('squirrel_count.csv')
-
