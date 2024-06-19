@@ -1,0 +1,18 @@
+"""
+# Function to get coordinates
+def get_mouse_click_coordinates(x, y):
+    print(f",{x},{y}")
+
+turtle.onscreenclick(get_mouse_click_coordinates)
+turtle.mainloop()
+"""
+
+# validate_city = False
+# for x in data['city']:
+#     if user_value == x:
+#         validate_city = True
+#
+# if validate_city:
+#     print(f'{user_value} is correct!')
+# else:
+#     print(f'{user_value} is NOT correct!')

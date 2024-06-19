@@ -1,11 +1,11 @@
-# TODO Convert the guess to Title case
-# TODO Check if the guess is among the 50 states
-# TODO Write correct guesses onto the map
-# TODO Use a loop to allow the user to keep guessing
-# TODO Record the correct guesses in a list
-# TODO Keep track of the score
-import csv
+# TODO: Convert the guess to Title case (DONE)
+# TODO: Check if the guess is among the 52 cities (DONE)
+# TODO: Write correct guesses onto the map
+# TODO: Use a loop to allow the user to keep guessing
+# TODO: Record the correct guesses in a list
+# TODO: Keep track of the score
 import turtle
+import pandas
 
 screen = turtle.Screen()
 screen.title('Spain Cities Game')
@@ -13,16 +13,15 @@ image = 'spain.gif'
 screen.addshape(image)
 turtle.shape(image)
 
-user_value = screen.textinput('Cities of Spain', 'Enter a city:').title()
+total_cities = 52
+score = 0
 
-with open('spain_cities.csv') as data_file:
-    cities_of_spain = csv.reader(data_file)
+user_value = screen.textinput(f"{score}/{total_cities} Cities of Spain", 'Enter a city:').title()
 
-"""
-# Function to get coordinates
-def get_mouse_click_coordinates(x, y):
-    print(f",{x},{y}")
+# Read data from a CSV file into a DataFrame
+data = pandas.read_csv('spain_cities.csv')
 
-turtle.onscreenclick(get_mouse_click_coordinates)
-turtle.mainloop()
-"""
+check_city = data[data['city'] == user_value]
+x_coordinate = float(check_city['x'])
+y_coordinate = float(check_city['y'])
+
