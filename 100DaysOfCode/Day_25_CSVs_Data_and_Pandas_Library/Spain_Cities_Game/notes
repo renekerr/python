@@ -16,3 +16,5 @@ turtle.mainloop()
 #     print(f'{user_value} is correct!')
 # else:
 #     print(f'{user_value} is NOT correct!')
+
+check_city = data[data['city'] == user_value]

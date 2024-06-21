@@ -16,12 +16,23 @@ turtle.shape(image)
 total_cities = 52
 score = 0
 
-user_value = screen.textinput(f"{score}/{total_cities} Cities of Spain", 'Enter a city:').title()
-
 # Read data from a CSV file into a DataFrame
 data = pandas.read_csv('spain_cities.csv')
 
-check_city = data[data['city'] == user_value]
-x_coordinate = float(check_city['x'])
-y_coordinate = float(check_city['y'])
+game_over = False
+while not game_over:
+    validate_city = False
+    user_value = screen.textinput(f"{score}/{total_cities} Cities of Spain", 'Enter a city:').title()
+
+    for c in data['city']:
+        if user_value == c:
+            validate_city = True
+            score += 1
+
+    if validate_city:
+        turtle.penup()
+        turtle.goto(-36.0, 65.0)
+
+
+
 
