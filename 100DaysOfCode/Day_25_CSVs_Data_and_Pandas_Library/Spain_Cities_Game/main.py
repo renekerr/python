@@ -7,6 +7,9 @@
 import turtle
 import pandas
 
+ALIGNMENT = 'center'
+FONT = ("Arial", 8, "normal")
+
 screen = turtle.Screen()
 screen.title('Spain Cities Game')
 image = 'spain.gif'
@@ -18,12 +21,15 @@ score = 0
 
 data = pandas.read_csv('spain_cities.csv')
 all_cities = data.city.to_list()
+guessed_cities = []
+
+print(total_cities)
 
 game_over = False
 while not game_over:
     user_value = screen.textinput(f"{score}/{total_cities} Cities of Spain", 'Enter a city:').title()
-    print(user_value)
-    if user_value in all_cities:
+
+    if (user_value in all_cities) and (user_value not in guessed_cities):
         t = turtle.Turtle()
         t.hideturtle()
         t.penup()
@@ -31,10 +37,12 @@ while not game_over:
         x_coordinate = float(check_city.x)
         y_coordinate = float(check_city.y)
         t.goto(x_coordinate, y_coordinate)
-        t.write(arg=check_city.city.item(), align='left', font=("Arial", 8, "normal"))
+        city_name = check_city.city.item()
+        t.write(arg=city_name, align=ALIGNMENT, font=FONT)
+        guessed_cities.append(city_name)
         score += 1
 
-    if score == 52:
+    if score == total_cities:
         game_over = True
 
 screen.exitonclick()
