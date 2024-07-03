@@ -11,17 +11,14 @@
 # TODO: Add some comments
 
 import turtle
+
+import pandas
 import pandas as pd
 
 TEXT_ALIGNMENT = 'center'
 TEXT_FONT = ("Arial", 8, "normal")
-
-# Set up the screen
-screen = turtle.Screen()
-screen.title('Spain Cities Game')
-spain_map_image = 'spain.gif'
-screen.addshape(spain_map_image)
-turtle.shape(spain_map_image)
+TOTAL_CITIES = 52
+current_score = 0
 
 turtle_writer = turtle.Turtle()
 turtle_writer.hideturtle()
@@ -29,8 +26,12 @@ turtle_writer.penup()
 turtle_writer.goto(0, -380)
 turtle_writer.write(arg="Type 'exit' to quit the game.", align='center', font=("Courier", 15, "normal"))
 
-TOTAL_CITIES = 52
-current_score = 0
+# Set up the screen
+screen = turtle.Screen()
+screen.title('Spain Cities Game')
+spain_map_image = 'spain.gif'
+screen.addshape(spain_map_image)
+turtle.shape(spain_map_image)
 
 # Read city data from CSV
 city_data = pd.read_csv('spain_cities.csv')
@@ -44,7 +45,6 @@ while not is_game_over:
 
     if user_guess == 'Exit':
         print('You have successfully exited the game.')
-        print(f'Guessed cities = {len(guessed_city_list)}')
         is_game_over = True
 
     if (user_guess in city_list) and (user_guess not in guessed_city_list):
@@ -61,3 +61,17 @@ while not is_game_over:
         turtle_writer.write(arg="Congratulations! You've guessed all cities of Spain!", align='center',
                             font=("Courier", 15, "normal"))
         screen.exitonclick()
+
+cities_to_learn = []
+for c in city_list:
+    if c not in guessed_city_list:
+        cities_to_learn.append(c)
+
+print(f'Guessed cities = {len(guessed_city_list)}')
+print(guessed_city_list)
+
+print(f'Cities to learn = {len(cities_to_learn)}')
+print('Generated file: missing_cities.csv')
+
+missing_cities = pandas.DataFrame(cities_to_learn)
+missing_cities.to_csv('missing_cities.csv')

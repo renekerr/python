@@ -2,9 +2,11 @@ import random
 import os
 from art import logo
 
+
 def clear_screen():
     """Clears the terminal screen."""
     os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def deal_cards():
     """
@@ -16,6 +18,7 @@ def deal_cards():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     card = random.choice(cards)
     return card
+
 
 def calculate_score(cards):
     """
@@ -29,14 +32,15 @@ def calculate_score(cards):
     """
     score = sum(cards)
 
-    if score == 21 and len(cards) == 2:    # Check for blackjack
-        return 0 
-    
-    if 11 in cards and score > 21: # Check if score exceeds 21 and an 11 is present    
-        cards.remove(11)    # Replace 11 with 1
+    if score == 21 and len(cards) == 2:  # Check for blackjack
+        return 0
+
+    if 11 in cards and score > 21:  # Check if score exceeds 21 and an 11 is present
+        cards.remove(11)  # Replace 11 with 1
         cards.append(1)
 
     return score
+
 
 def compare(player_score, computer_score):
     """
@@ -65,11 +69,12 @@ def compare(player_score, computer_score):
     else:
         return "Result:\n\t You win!\n"
 
+
 def play_game():
     """
     Simulates a card game between the player and the computer.
     """
-    
+
     print(logo)
 
     player_cards, computer_cards = [], []
@@ -86,16 +91,15 @@ def play_game():
         print(f"player\t{player_cards}\t\t{player_score}")
         print(f"pc\t{computer_cards[0]}\n")
 
-
         if player_score == 0 or computer_score == 0 or player_score > 21:
             game_over = True
         else:
             choice = input("Type 'y' to get another card, type 'n' to pass: ")
             if choice == 'y':
                 player_cards.append(deal_cards())
-            else: 
+            else:
                 game_over = True
-                
+
     while computer_score < 17 and computer_score != 0:
         computer_cards.append(deal_cards())
         computer_score = calculate_score(computer_cards)
@@ -104,12 +108,7 @@ def play_game():
     print(f"Computer's final hand is {computer_cards}, its final score is {computer_score}\n")
     print(compare(player_score, computer_score))
 
+
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y':
     clear_screen()
     play_game()
-
-
-
-
-
-
