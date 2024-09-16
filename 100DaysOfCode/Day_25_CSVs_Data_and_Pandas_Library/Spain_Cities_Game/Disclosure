@@ -1,0 +1,5 @@
+Disclosure:
+
+This project uses the map of Spain instead of the USA, as suggested in the original exercise. The code was developed,
+tested, and corrected on MacOS. Due to differences in graphics rendering, city coordinates might slightly differ on
+Windows, which may require some adjustments or review.
