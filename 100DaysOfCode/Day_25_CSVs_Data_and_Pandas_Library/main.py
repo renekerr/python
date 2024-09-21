@@ -2,7 +2,6 @@
 
 import csv
 
-
 with open('weather_forecast/weather_data.csv') as data_file:
     data = csv.reader(data_file)
     print(data)  # this will print it as an object
@@ -15,4 +14,3 @@ with open('weather_forecast/weather_data.csv') as data_file:
         temperature.append(int(row[1]))
 
 print(temperature)
-
