@@ -1,5 +1,8 @@
 # Day 26 - Working with List & Dictionary Comprehensions
 
+
+# LIST COMPREHENSION. EXAMPLES & HOW IT WORKS
+
 # Example 1: Using a for loop to increment each number in a list by 1
 numbers = [1, 2, 3, 4]
 incremented_numbers = []

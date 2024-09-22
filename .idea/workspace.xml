@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/main_list_comprehension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,9 @@
     &quot;accountId&quot;: &quot;c0deb390-061c-4728-98a5-8a1cc5981f84&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -54,6 +56,7 @@
     "Python.exercise.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.main_dictionary_comprehension.executor": "Run",
     "Python.main_pandas.executor": "Run",
     "Python.squirrel_check.executor": "Run",
     "Python.test.executor": "Run",
@@ -63,12 +66,13 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions",
+    "last_opened_file_path": "/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used" />
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,58 +80,6 @@
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library/squirrel_count" />
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Lessons_Repository" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/exercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Lessons_Repository" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.exercise" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
