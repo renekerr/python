@@ -86,4 +86,36 @@ INSERT INTO server_info (server, database, name, email, sql_version, cluster_sta
 INSERT INTO server_info (server, database, name, email, sql_version, cluster_status) VALUES ('server3', 'No user database found', 'Alice', 'alice@email.com', 'SQL Server 2017', 'SA');
 INSERT INTO server_info (server, database, name, email, sql_version, cluster_status) VALUES ('server4', 'No user database found', 'Amanda', 'amanda@email.com', 'SQL Server 2019', 'HADR');
 
+
+Pasos para Conectarse a una Instancia de SQL Server Usando Python:
+
+1. Importación de Bibliotecas:
+   - Importar la biblioteca necesaria (pyodbc) para establecer la conexión y ejecutar consultas SQL.
+
+2. Definición de Parámetros de Conexión:
+   - Especificar los parámetros de conexión, como el controlador de SQL Server, el nombre del servidor, la base de datos y las credenciales.
+   - Configurar opciones adicionales, como la autenticación (conexión confiable o con usuario y contraseña).
+
+3. Establecimiento de la Conexión:
+   - Utilizar la función de conexión proporcionada por la biblioteca (pyodbc.connect()) con la cadena de conexión definida.
+   - Manejar posibles excepciones que puedan ocurrir durante el intento de conexión.
+
+4. Creación de un Cursor:
+   - Crear un objeto cursor a partir de la conexión establecida.
+   - El cursor permite ejecutar comandos SQL y recuperar resultados de las consultas.
+
+5. Ejecución de Consultas SQL:
+   - Utilizar el cursor para ejecutar consultas SQL que devuelvan información de interés (ejemplo: versión de SQL Server, lista de bases de datos).
+   - Recuperar los resultados de las consultas utilizando métodos como fetchone() o fetchall().
+
+6. Procesamiento de Resultados:
+   - Procesar los datos obtenidos de las consultas para extraer la información necesaria (como nombre de la base de datos, versión del servidor).
+   - Manejar casos especiales, como la ausencia de resultados o errores en las consultas.
+
+7. Cierre de la Conexión:
+   - Asegurarse de cerrar el cursor y la conexión a la base de datos una vez completadas todas las operaciones.
+   - Esto libera los recursos utilizados y previene posibles fugas de memoria.
+
+8. Manejo de Excepciones (opcional):
+   - Implementar un manejo de excepciones para capturar y gestionar cualquier error que pueda ocurrir durante la conexión o ejecución de consultas.
 """
