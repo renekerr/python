@@ -1,3 +1,9 @@
+# TODO Check environment and add it to full_info
+# TODO Add backup retention days constant
+# TODO Add more fields to INSERT
+# TODO Add BEGIN TRAN / COMMIT TRAN
+
+
 import pyodbc
 
 # Define the new_servers and full_info lists
