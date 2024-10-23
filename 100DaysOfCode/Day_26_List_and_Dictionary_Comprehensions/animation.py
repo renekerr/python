@@ -25,10 +25,11 @@ def waiting_animation():
 # Function to load data from a file (simulated with sleep)
 def load_data():
     time.sleep(5)  # Simulate a delay in loading data
-    return "Data loaded"
+    return "Process completed"
 
 
 # Start the animation in a separate thread
+print('Data loading....')
 animation_thread = threading.Thread(target=waiting_animation)
 animation_thread.start()
 
@@ -40,5 +41,4 @@ stop_animation = True
 animation_thread.join()
 
 # Print the result
-print("Data loading completed.")
 print(data)
