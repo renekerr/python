@@ -2,13 +2,13 @@
 user_response = input("Please input the temperature in Celsius: ")
 
 # Since input() function always returns a string, the result should be converted it. See line below
-celsius = int(user_response) # use celsius = float(user_response) if the user inputs a floating point number
+celsius = int(user_response)  # use Celsius = float(user_response) if the user inputs a floating point number
 
-fahrenheit = ((celsius*9)/5)+32
+fahrenheit = ((celsius * 9) / 5) + 32
 
-if fahrenheit > 90 :
+if fahrenheit > 90:
     print("It is hot!")
-else :
+else:
     print("It is not hot!")
 
 print("Temperature in Fahrenheit is", fahrenheit)
