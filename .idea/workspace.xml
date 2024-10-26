@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_12_Namespaces_Local_vs_Global_scope/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_12_Namespaces_Local_vs_Global_scope/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,32 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.100_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.102_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.103_tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.animation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iterate_over_pandas_df.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_dictionary_comprehension.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_pandas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.squirrel_check.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_race.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;promo.database&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.100_tests.executor": "Run",
+    "Python.102_tests.executor": "Run",
+    "Python.103_tests.executor": "Run",
+    "Python.animation.executor": "Run",
+    "Python.exercise.executor": "Run",
+    "Python.iterate_over_pandas_df.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_dictionary_comprehension.executor": "Run",
+    "Python.main_pandas.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.pretty_table.executor": "Run",
+    "Python.squirrel_check.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.turtle_race.executor": "Run",
+    "Python.variables.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used",
+    "settings.editor.selected.configurable": "promo.database"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used" />
@@ -85,7 +89,29 @@
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.pretty_table">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Lessons_Repository" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_12_Namespaces_Local_vs_Global_scope" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_12_Namespaces_Local_vs_Global_scope/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Lessons_Repository" />
       <option name="ENV_FILES" value="" />
@@ -108,8 +134,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Lessons_Repository" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pretty_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Lessons_Repository" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_16_Object_Oriented_Programming_OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_16_Object_Oriented_Programming_OOP/pretty_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pretty_table" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.playground" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
