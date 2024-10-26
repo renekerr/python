@@ -6,26 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/band_name_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/band_name_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/data_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/variables_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_1_Variables/variables_switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/05_area_perimeter_circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/05_area_perimeter_circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/06_area_perimeter_rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/06_area_perimeter_rectangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/07_average_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/07_average_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/08_celsius_to_fahrenheit_enhanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/08_celsius_to_fahrenheit_enhanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/09_celsius_to_fahrenheit.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/09_celsius_to_fahrenheit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/11_get_input_from_user_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/11_get_input_from_user_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/string_exercise_01_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_2_Data_types_and_strings/additional_exercises/string_exercise_01_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/08_celsius_to_fahrenheit_if_elif_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/08_celsius_to_fahrenheit_if_elif_else.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/09_celsius_to_fahrenheit_if_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/09_celsius_to_fahrenheit_if_else.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/10_cond_if_else_ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/10_cond_if_else_ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/11_continue_break_ex1_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/11_continue_break_ex1_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/12_continue_break_ex2_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/12_continue_break_ex2_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/13_continue_break_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/13_continue_break_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/14_if_elif_else_ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/14_if_elif_else_ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/15_if_elif_else_ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_3_Control_flow_and_logical_operators/additional_exercises/15_if_elif_else_ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCode/101_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCode/101_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,35 +49,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.100_tests.executor": "Run",
-    "Python.102_tests.executor": "Run",
-    "Python.103_tests.executor": "Run",
-    "Python.animation.executor": "Run",
-    "Python.exercise.executor": "Run",
-    "Python.iterate_over_pandas_df.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_dictionary_comprehension.executor": "Run",
-    "Python.main_pandas.executor": "Run",
-    "Python.playground.executor": "Run",
-    "Python.pretty_table.executor": "Run",
-    "Python.squirrel_check.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.turtle_race.executor": "Run",
-    "Python.variables.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "promo.database"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.100_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.102_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.103_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.animation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iterate_over_pandas_df.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_dictionary_comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pretty_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.squirrel_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_race.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/renek/Library/CloudStorage/OneDrive-Personal/Documentos/P Y T  H O N/Python_Lessons_Repository/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.database&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_26_List_and_Dictionary_Comprehensions/Spain_Cities_Game_List_Comprehension_Used" />
