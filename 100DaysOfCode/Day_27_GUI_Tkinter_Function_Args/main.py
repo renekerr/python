@@ -5,7 +5,7 @@ from tkinter import *
 
 # Create the main window for the GUI application
 window = Tk()
-window.title('GUI Tkinter')  # Set the window title
+window.title('Day 27 | GUI Tkinter')  # Set the window title
 window.minsize(width=500, height=500)  # Set minimum window size to 500x500 pixels
 
 # Create a label widget with initial text, font, and style
@@ -36,3 +36,5 @@ input_sample.pack()  # Place the entry widget in the window using pack()
 
 # Run the main event loop to display the window and keep it open
 window.mainloop()
+
+
