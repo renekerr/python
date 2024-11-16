@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5440d834-18ba-4614-b888-881e7f78da14" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/playground_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/pack_place_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/pack_place_grid.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,7 @@
     "Python.other_Tkinter_widgets.executor": "Run",
     "Python.pack_place_grid.executor": "Run",
     "Python.playground.executor": "Run",
+    "Python.pounds_to_kilograms.executor": "Run",
     "Python.pretty_table.executor": "Run",
     "Python.squirrel_check.executor": "Run",
     "Python.test.executor": "Run",
@@ -92,7 +92,7 @@
       <recent name="$PROJECT_DIR$/100DaysOfCode/Day_25_CSVs_Data_and_Pandas_Library" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pack_place_grid">
+  <component name="RunManager" selected="Python.pounds_to_kilograms">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Lessons_Repository" />
       <option name="ENV_FILES" value="" />
@@ -159,8 +159,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pounds_to_kilograms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Lessons_Repository" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100DaysOfCode/Day_27_GUI_Tkinter_Function_Args/pounds_to_kilograms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pounds_to_kilograms" />
         <item itemvalue="Python.pack_place_grid" />
         <item itemvalue="Python.other_Tkinter_widgets" />
         <item itemvalue="Python.main" />

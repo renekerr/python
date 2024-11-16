@@ -1,34 +1,39 @@
 from tkinter import *
 
+FONT = ("Arial", 15, "normal")
 
-def button_clicked():
-    print("I got clicked")
-    new_text = user_input.get()
-    my_label.config(text=new_text)
+
+def code_copy_validation():
+    user_code = user_input.get()
+    code_copied_label = Label(text=user_code, font=FONT)
+    code_copied_label.grid(column=1, row=5)
 
 
 window = Tk()
-window.title("My First GUI Program")
-window.minsize(width=500, height=300)
-window.config(padx=100, pady=200)
+window.title("GUI TKinter")
+window.minsize(width=400, height=100)
 
-# Label
-my_label = Label(text="I Am a Label", font=("Arial", 24, "bold"))
-my_label.config(text="New Text")
-my_label.grid(column=0, row=0)
-my_label.config(padx=50, pady=50)
+# Code label
+code_label = Label(text="Enter code: ", font=FONT)
+code_label.config(padx=10)
+code_label.grid(column=0, row=0)
+
+code_check_label = Label(text='Code check: ', font=FONT)
+code_check_label.config(padx=20, pady=20)
+code_check_label.grid(column=0, row=5)
 
 # Button
-button = Button(text="Click Me", command=button_clicked)
+button = Button(text="Save", command=code_copy_validation)
 button.grid(column=1, row=1)
 
-new_button = Button(text="New Button")
-new_button.grid(column=2, row=0)
+new_button = Button(text="Cancel")
+new_button.grid(column=1, row=2)
+new_button.config()
 
 # Entry
-user_input = Entry(width=10)
-print(user_input.get())
-user_input.grid(column=3, row=2)
+user_input = Entry(width=20)
+user_input.get()
+user_input.grid(column=1, row=0)
 
 # Run the main event loop to display the window and keep it open
 window.mainloop()
